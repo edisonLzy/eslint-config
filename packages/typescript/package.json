@@ -1,0 +1,20 @@
+{
+  "name": "@ee-lint/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "eslint config for typescript",
+  "exports": {
+    ".":{
+      "import":"./index.js",
+      "require":"./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "evan",
+  "license": "ISC",
+  "dependencies": {
+    "@ee-lint/eslint-config": "workspace:^0.0.1"
+  }
+}

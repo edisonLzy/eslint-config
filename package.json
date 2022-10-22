@@ -4,29 +4,21 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
-    "lint": "eslint --fix --ext .js,.ts,.tsx packages/*/src/**/*"
+    "lint": "eslint packages/*",
+    "lint:fix" :"pnpm lint --fix"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.19.1",
     "@commitlint/config-conventional": "^17.1.0",
-    "@typescript-eslint/eslint-plugin": "^5.40.0",
-    "@typescript-eslint/parser": "^5.40.0",
+    "@ee-lint/eslint-config": "workspace:^0.0.1",
     "commitlint": "^17.1.2",
-    "eslint": "^8.25.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint": "^8.23.0",
     "husky": "^8.0.1",
     "lerna": "^6.0.1",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
-    "typescript": "^4.8.4"
+    "lint-staged": "^13.0.3"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
+    "*.js": [
       "eslint --fix"
-    ],
-    "*.{d.ts,json,md}": [
-      "prettier --write"
     ]
   }
 }
