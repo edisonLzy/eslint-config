@@ -45,6 +45,15 @@ module.exports = defineConfig({
     },
   ],
   rules: {
+    // prettier
+    'prettier/prettier': [
+      'error',
+      {
+        singleQuote: true,
+        jsxSingleQuote: true,
+        bracketSpacing: true,
+      },
+    ],
     // import: eslint-plugin-import
     'import/order': [
       'error',

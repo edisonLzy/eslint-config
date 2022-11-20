@@ -15,13 +15,15 @@
   "author": "evan",
   "license": "ISC",
   "dependencies": {
-    "@ee-lint/eslint-config": "workspace:^0.0.1"
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "@ee-lint/eslint-config-ts": "workspace:^0.0.1"
   },
   "devDependencies": {
-    "eslint": "^8.23.0",
     "eslint-define-config": "^1.12.0"
   },
   "peerDependencies": {
-    "eslint": "^8.23.0"
+    "eslint": "^8.23.0",
+    "react": "^18.2.0"
   }
 }
