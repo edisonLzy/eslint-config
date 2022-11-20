@@ -1,1 +1,1 @@
-console.log('render')
+const a = '123';

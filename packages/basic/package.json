@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "base eslint config",
   "exports": {
-    ".":{
-      "import":"./index.js",
-      "require":"./index.js"
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
     }
   },
   "scripts": {
@@ -13,5 +13,18 @@
   },
   "keywords": [],
   "author": "evan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-define-config": "^1.12.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.23.0"
+  }
 }

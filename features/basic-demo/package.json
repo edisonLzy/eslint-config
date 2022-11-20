@@ -10,6 +10,10 @@
   "author": "evan",
   "license": "ISC",
   "devDependencies": {
-    "@ee-lint/eslint-config": "workspace:^0.0.1"
+    "@ee-lint/eslint-config": "workspace:^0.0.1",
+    "eslint-define-config": "^1.12.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }

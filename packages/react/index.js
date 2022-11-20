@@ -1,4 +1,3 @@
 module.exports = {
-    extends: '@ee-lint'
-  };
-  
+  extends: '@ee-lint',
+};

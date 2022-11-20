@@ -5,6 +5,7 @@
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
     "lint": "eslint packages/*",
+    "lint:demo": "eslint features/ts-demo/src/**/*",
     "lint:fix" :"pnpm lint --fix"
   },
   "devDependencies": {
