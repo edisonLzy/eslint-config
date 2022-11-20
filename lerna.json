@@ -3,5 +3,6 @@
   "useWorkspaces": true,
   "version": "independent",
   "npmClient": "pnpm",
-  "independent": true
+  "independent": true,
+  "gitRemote": "git@github.com:edisonLzy/eslint-config.git"
 }
