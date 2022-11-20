@@ -6,7 +6,8 @@
     "prepare": "husky install",
     "lint": "eslint packages/*",
     "lint:demo": "eslint features/ts-demo/src/**/*",
-    "lint:fix" :"pnpm lint --fix"
+    "lint:fix" :"pnpm lint --fix",
+    "release" :"lerna publish"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.1.0",

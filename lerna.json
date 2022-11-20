@@ -3,6 +3,12 @@
   "useWorkspaces": true,
   "version": "independent",
   "npmClient": "pnpm",
-  "independent": true,
-  "gitRemote": "git@github.com:edisonLzy/eslint-config.git"
+  "ignoreChanges": ["features/**", ".husky/**", "**/*.log","**/*.md"],
+  "command": {
+    "publish": {
+      "registry": "https://registry.npmjs.org/",
+      "conventionalCommits": true,
+      "message": "chore(release): publish %v"
+    }
+  }
 }
