@@ -3,6 +3,7 @@
   "useWorkspaces": true,
   "version": "independent",
   "npmClient": "pnpm",
+  "ignore": "*-demo",
   "ignoreChanges": ["features/**", ".husky/**", "**/*.log","**/*.md"],
   "command": {
     "publish": {
