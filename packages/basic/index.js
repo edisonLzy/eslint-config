@@ -22,7 +22,7 @@ module.exports = defineConfig({
     '*.d.ts',
     'CHANGELOG.md',
     'dist',
-    'doc',
+    'docs',
     'LICENSE*',
     'output',
     'coverage',
