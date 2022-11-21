@@ -7,7 +7,7 @@
     "lint": "eslint packages/*",
     "lint:demo": "eslint features/ts-demo/src/**/*",
     "lint:fix": "pnpm lint --fix",
-    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public --registry https://registry.npmjs.org/"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.1.0",
