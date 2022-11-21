@@ -45,6 +45,11 @@ module.exports = defineConfig({
     },
   ],
   rules: {
+    // https://eslint.org/docs/latest/rules/padding-line-between-statements
+    'padding-line-between-statements': [
+      'error',
+      { blankLine: 'always', prev: '*', next: ['function', 'export'] },
+    ],
     // prettier
     'prettier/prettier': [
       'error',

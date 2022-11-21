@@ -4,6 +4,11 @@ module.exports = {
     'plugin:react-hooks/recommended',
     '@ee-lint/ts',
   ],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   rules: {
     'react/react-in-jsx-scope': 'off',
   },

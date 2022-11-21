@@ -1,11 +1,12 @@
 {
   "name": "root",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
     "lint": "eslint packages/*",
-    "lint:demo": "eslint features/ts-demo/src/**/*",
+    "lint:demo": "eslint features/**",
     "lint:fix": "pnpm lint --fix",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public --registry https://registry.npmjs.org/"
   },
@@ -19,9 +20,8 @@
     "lint-staged": "^13.0.3"
   },
   "lint-staged": {
-    "*.js": [
+    "packages/**/*.js": [
       "eslint --fix"
     ]
-  },
-  "version": "0.0.1"
+  }
 }
