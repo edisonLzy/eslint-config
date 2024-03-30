@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.1.0",
-    "@ee-lint/eslint-config": "workspace:^0.0.1",
+    "@ee-lint/eslint-config": "workspace:*",
     "bumpp": "^8.2.1",
     "commitlint": "^17.1.2",
     "eslint": "^8.23.0",

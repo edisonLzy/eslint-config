@@ -17,6 +17,7 @@ module.exports = defineConfig({
     // https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
     'plugin:prettier/recommended',
   ],
+  plugins: ['unused-imports'],
   ignorePatterns: [
     '*.min.*',
     '*.d.ts',
@@ -78,5 +79,16 @@ module.exports = defineConfig({
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
+    'no-unused-vars': 'off',
+    'unused-imports/no-unused-imports': 'error',
+    'unused-imports/no-unused-vars': [
+      'warn',
+      {
+        vars: 'all',
+        varsIgnorePattern: '^_',
+        args: 'after-used',
+        argsIgnorePattern: '^_',
+      },
+    ],
   },
 });

@@ -15,7 +15,7 @@
   "author": "evan",
   "license": "ISC",
   "dependencies": {
-    "@ee-lint/eslint-config": "workspace:^0.0.1",
+    "@ee-lint/eslint-config": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
     "eslint-define-config": "^1.12.0"

@@ -13,7 +13,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@ee-lint/eslint-config-react": "workspace:^0.0.1",
+    "@ee-lint/eslint-config-react": "workspace:*",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
