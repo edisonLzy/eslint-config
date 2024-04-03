@@ -81,6 +81,8 @@ module.exports = defineConfig({
     'import/no-absolute-path': 'off',
     'no-unused-vars': 'off',
     'unused-imports/no-unused-imports': 'error',
+    // avoid phantom dependencies
+    'import/no-extraneous-dependencies': 'error',
     'unused-imports/no-unused-vars': [
       'warn',
       {
